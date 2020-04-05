@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leo", "Leo\Leo.csproj", "{B77B79E3-628D-49CC-97B8-8298CF32D50F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B77B79E3-628D-49CC-97B8-8298CF32D50F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B77B79E3-628D-49CC-97B8-8298CF32D50F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B77B79E3-628D-49CC-97B8-8298CF32D50F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B77B79E3-628D-49CC-97B8-8298CF32D50F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04ED6F8F-2F76-4086-8958-E92D4380CD7D}
+	EndGlobalSection
+EndGlobal
