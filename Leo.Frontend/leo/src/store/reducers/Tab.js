@@ -8,8 +8,8 @@ const initState = [
     },
     {
         id: 2,
-        name: '#SingleCard',
-        component: 'SingleCard'
+        name: '#addCar',
+        component: 'AddCar'
     },
     {
         id: 1,

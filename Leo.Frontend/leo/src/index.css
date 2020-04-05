@@ -1,3 +1,6 @@
+html{
+  height: 100%;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +8,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+#root{
+  height: 100%;
+}
+.App{
+  height: 100%;
 }
 
 code {
@@ -26,6 +36,7 @@ code {
 }
 
 .header{
+  height: 40px;
   min-width: 100%;
   min-height: 40px;
   background-color: #f1f1f1;
@@ -51,6 +62,8 @@ code {
 }
 .content{
   display: flex;
+  height: 95%;
+  flex-wrap: wrap;
 }
 
 .card{
@@ -86,16 +99,17 @@ code {
 .singlcard{
   margin: 10px;
   min-width: 100%;
-  min-height: 100%;
+  min-height: 90%;
   background-color: #f1f1f1;
+  display: flex;
+  max-height: 90%;
 }
 
 .singlcard .card-info{
-  max-width: 30%;
+  max-width: 100%;
   max-height: 100%;
   min-height: 100%;
-  display: flex;
-  flex-wrap: wrap;
+  min-width: 30%;
 }
 
 .singlcard .card-info .row{
@@ -103,8 +117,40 @@ code {
   display: flex;
   flex-wrap: wrap;
   margin: 5px;
+  max-height: 20px;
 }
 
 .singlcard .card-info .row .col{
   width: 50%;
+}
+
+.singlcard .card-img{
+  width: 68%;
+  max-height: 100%;
+}
+
+.singlcard .card-img img{
+  object-fit: cover;
+  height: 100%;
+  margin: 5px;
+}
+.singlcard .card-img .car-img{
+  max-height: 60%;
+  height: 60%;
+  display: flex;
+  min-height: 60%;
+  justify-content: center;
+  width: 100%;
+}
+
+.singlcard .card-img .car-img img{
+  width: 100%;
+}
+
+.singlcard .card-img .car-img-other {
+  height: 21%;
+  max-height: 16%;
+  display: flex;
+  margin: 10px;
+  justify-content: center;
 }
